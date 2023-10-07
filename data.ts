@@ -59,8 +59,8 @@ export const links = [
       price:"3500",
       desc:" A gas stove is a kitchen appliance that uses natural gas or propane to generate a controlled flame for cooking.",
       img:"product2.png",
-    }
-  ] as const
+  }
+  ] as const
   export const contactdata=[
     {
 name:"",
