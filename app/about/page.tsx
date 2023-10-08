@@ -2,15 +2,15 @@
 import { Button } from '@material-tailwind/react'
 import Image from 'next/image'
 import React from 'react'
-
+  
 const page = () => {
   return (
-    // <main className=" min-h-screen items-center justify-between p-24">
+
     <div className='  flex-row flex gap-4 w-full items-center justify-center mt-16  h-full p-16'>
       <div className='w-1/2 '>
         <Image src={"/about.png"} alt='image'  height={400} width={400}  className=' rounded-xl pb-10'/>
         <div className=' flex items-center space-x-10' >
-<a href="/p1"> Problem</a>
+
         <Button ripple={true}     className=' gap-5 hover:scale-105' >Problem</Button>
       <Button ripple={false}  className=' gap-5  hover:scale-105'>Solution</Button>
         </div>

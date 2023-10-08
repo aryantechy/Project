@@ -5,7 +5,7 @@ import { productdata } from '../../data';
 
 const page = () => {
   return (
-    <div className=''>
+    
 
     <div className=' flex items-center justify-center gap-8 ' >
        {productdata.map((item)=>
@@ -14,7 +14,7 @@ const page = () => {
         </div>
        )}
     </div>
-       </div>
+       
   )
 }
 
