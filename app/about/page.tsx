@@ -15,13 +15,13 @@ const page = () => {
           className=" rounded-xl pb-10"
         />
         <div className=" flex items-center space-x-10">
-          <a href="">
+          <a href="/p1.png"  target="_blank" >
             <Button ripple={true} className=" gap-5 hover:scale-105">
               Problem
             </Button>
           </a>
           <a
-            href=""
+            href="/p1.png"  target="_blank" 
           >
             <Button ripple={false} className=" gap-5  hover:scale-105">
               Solution
