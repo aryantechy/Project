@@ -10,9 +10,9 @@ const page = () => {
       <div className='w-1/2 '>
         <Image src={"/about.png"} alt='image'  height={400} width={400}  className=' rounded-xl pb-10'/>
         <div className=' flex items-center space-x-10' >
-
-        <Button ripple={true}  className=' gap-5' >Problem</Button>
-      <Button ripple={false}  className=' gap-5 '>Solution</Button>
+<a href="/p1"> Problem</a>
+        <Button ripple={true}     className=' gap-5 hover:scale-105' >Problem</Button>
+      <Button ripple={false}  className=' gap-5  hover:scale-105'>Solution</Button>
         </div>
 
 
