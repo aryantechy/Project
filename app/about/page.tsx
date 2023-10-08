@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@material-tailwind/react";
+// import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 import React from "react";
 
@@ -14,7 +14,7 @@ const page = () => {
           width={400}
           className=" rounded-xl pb-10"
         />
-        <div className=" flex items-center space-x-10">
+        {/* <div className=" flex items-center space-x-10">
           <a href="/p1.png"  target="_blank" >
             <Button ripple={true} className=" gap-5 hover:scale-105">
               Problem
@@ -27,7 +27,7 @@ const page = () => {
               Solution
             </Button>
           </a>
-        </div>
+        </div> */}
       </div>
 
       <div className="w-1/2">
