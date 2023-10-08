@@ -1,7 +1,4 @@
-import p1 from "./public/about.png";
-import p2 from "./public/product1.png";
-import p3 from "./public/product2.png";
-import { useUser } from "@clerk/nextjs";
+
 
 export const links = [
   {

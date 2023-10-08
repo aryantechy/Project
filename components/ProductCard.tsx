@@ -31,6 +31,7 @@ const ProductCard:React.FC<productcardprops> = ({product_desc,product_img,produc
           src={`/${product_img}`}
           alt="card-image"
           className="h-full w-full object-cover "
+          
         />
       </CardHeader>
       <CardBody>
