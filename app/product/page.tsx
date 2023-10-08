@@ -8,11 +8,11 @@ const page = () => {
     <div className=''>
 
     <div className=' flex items-center justify-center gap-8 ' >
-       {productdata.map((item)=>(
+       {productdata.map((item)=>
          <div key={item.name}>
             <ProductCard product_name={item.name} product_desc={item.desc} product_img={item.img} product_price={item.price} />
         </div>
-       ))}
+       )}
     </div>
        </div>
   )
