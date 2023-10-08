@@ -50,7 +50,7 @@ export const links = [
       desc:"It integrates temperature reading sensors and an emergency alarm to enhance kitchen safety and prevent potential hazards associated with gas stoves. ",
       img:"about.png",
     } ,  {
-      name:"Gas Stove",
+      name:" Digital Stove",
       price:"2500",
       desc:" A gas stove is a kitchen appliance that uses natural gas or propane to generate a controlled flame for cooking.",
       img:"product1.png",
@@ -63,24 +63,30 @@ export const links = [
   ] as const
   export const contactdata=[
     {
-name:"",
-ph_no:"",
-Instaid:""
+name:"Anand Tyagi",
+ph_no:"7302777847",
+Instaid:" https://instagram.com/imanandtyagi?igshid=MzRlODBiNWFlZA==",
+img:"/Anand.png"
     },    {
-name:"",
+name:"Chandra Prakash",
 ph_no:"",
-Instaid:""
+Instaid:"",
+img:"/Chandra.png"
+
     },    {
-name:"",
+name:"Anamika Singh",
 ph_no:"",
-Instaid:""
+Instaid:"",
+img:"/Anamika.png"
     },    {
-name:"",
+name:"Rajat Choudhary",
 ph_no:"",
-Instaid:""
+Instaid:"",
+img:"/Rajat.png"
     },    {
-name:"",
+name:"Saurav Bisht",
 ph_no:"",
-Instaid:""
-    }, 
-  ] as const
+Instaid:"",
+img:"/Saurav.png"
+    },
+] as const
