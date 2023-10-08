@@ -14,6 +14,18 @@ const page = () => {
           width={400}
           className=" rounded-xl pb-10"
         />
+        <div className="flex items-center  space-x-10">
+          <div className=" h-10 w-10 ">
+
+          <a href="" className=" bg-blue-gray-500 ">
+          Problem
+          </a>
+          </div>
+          <a href="">
+            Solution
+          </a>
+
+        </div>
         {/* <div className=" flex items-center space-x-10">
           <a href="/p1.png"  target="_blank" >
             <Button ripple={true} className=" gap-5 hover:scale-105">
