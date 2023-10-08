@@ -22,6 +22,7 @@ export const ProfileCard: React.FC<profilecardprops> = ({
           src={`${src}`}
           alt="profile"
           width={200}
+          quality={50}
           height={200}
           className=" rounded-full  object-contain"
         />
