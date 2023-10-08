@@ -14,18 +14,8 @@ const page = () => {
           width={400}
           className=" rounded-xl pb-10"
         />
-        <div className="flex items-center  space-x-10">
-          <div className=" h-10 w-10 ">
-
-          <a href="" className=" bg-blue-gray-500 ">
-          Problem
-          </a>
-          </div>
-          <a href="">
-            Solution
-          </a>
-
-        </div>
+ <a href="/p2.png" target="_blank" className="m-2 inline-flex items-center justify-center rounded-xl border border-transparent bg-gray-600 px-5 py-3 font-medium text-white hover:bg-gray-700">Problem </a>
+<a href="/p1.png" target="_blank" className="m-2 inline-flex items-center justify-center rounded-xl border bg-white px-5 py-3 font-medium text-gray-600 shadow hover:bg-blue-50"> Solution</a>
         {/* <div className=" flex items-center space-x-10">
           <a href="/p1.png"  target="_blank" >
             <Button ripple={true} className=" gap-5 hover:scale-105">
