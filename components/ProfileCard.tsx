@@ -16,15 +16,11 @@ export const ProfileCard: React.FC<profilecardprops> = ({
   src,
 }) => {
   return (
-    <div className="  ">
+    <div>
       <div className=" h-72 w-72 bg-gray-600 rounded-3xl flex items-center justify-center">
         <Image
           src={`${src}`}
           alt="profile"
-<<<<<<< HEAD
-=======
-          quality={50}
->>>>>>> 59e622ddc553dbd6eb28e692b0dbb0d664e6a469
           width={200}
           height={200}
           className=" rounded-full  object-contain"
