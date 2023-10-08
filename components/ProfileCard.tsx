@@ -1,67 +1,34 @@
-"use client"
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Tooltip,
-} from "@material-tailwind/react";
-interface profilecardprops{
-  name: string,
-  phno:string,
-  insta_id:string
+"use client";
+
+import React from "react";
+import Image from "next/image";
+interface profilecardprops {
+  name?: string;
+  phno?: string;
+  insta_id?: string;
+  src?: string;
 }
 
-export function ProfileCard() {
+export const ProfileCard: React.FC<profilecardprops> = ({
+  name,
+  phno,
+  insta_id,
+  src,
+}) => {
   return (
-    <Card className="w-96">
-      <CardHeader floated={false} className="h-80">
-        <img src="/about.png" alt="profile-picture" />
-      </CardHeader>
-      <CardBody className="text-center">
-        <Typography variant="h4" color="blue-gray" className="mb-2">
-          Natalie Paisley
-        </Typography>
-        <Typography color="blue-gray" className="font-medium" textGradient>
-          CEO / Co-Founder
-        </Typography>
-      </CardBody>
-      <CardFooter className="flex justify-center gap-7 pt-2">
-        <Tooltip content="Like">
-          <Typography
-            as="a"
-            href="#facebook"
-            variant="lead"
-            color="blue"
-            textGradient
-          >
-            <i className="fab fa-facebook" />
-          </Typography>
-        </Tooltip>
-        <Tooltip content="Follow">
-          <Typography
-            as="a"
-            href="#twitter"
-            variant="lead"
-            color="light-blue"
-            textGradient
-          >
-            <i className="fab fa-twitter" />
-          </Typography>
-        </Tooltip>
-        <Tooltip content="Follow">
-          <Typography
-            as="a"
-            href="#instagram"
-            variant="lead"
-            color="purple"
-            textGradient
-          >
-            <i className="fab fa-instagram" />
-          </Typography>
-        </Tooltip>
-      </CardFooter>
-    </Card>
+    <div className="  ">
+      <div className=" h-72 w-72 bg-gray-600 rounded-3xl flex items-center justify-center">
+        <Image
+          src={`${src}`}
+          alt="profile"
+          quality={50}
+          width={200}
+          height={200}
+          className=" rounded-full  object-contain"
+        />
+      </div>
+      <h1 className=" font-bold text-lg gap-2">{name}</h1>
+      <>{phno == "" ? "" : <h1 className=" font-bold text-lg">ph-{phno}</h1>}</>
+    </div>
   );
-}
+};
