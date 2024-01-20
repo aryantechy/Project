@@ -11,10 +11,10 @@ import {
     Button,
   } from "@material-tailwind/react";
   interface productcardprops{
-    product_name:string,
-    product_price:string,
-    product_desc:string,
-    product_img:string
+    product_name?:string,
+    product_price?:string,
+    product_desc?:string,
+    product_img?:string
 
 
   }

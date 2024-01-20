@@ -1,3 +1,4 @@
+import { Button } from '@material-tailwind/react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -7,7 +8,10 @@ const page = () => {
     <div className='  flex-row flex gap-4 w-full items-center justify-center mt-16  h-full p-16'>
       <div className='w-1/2 '>
         <Image src={"/about.png"} alt='image'  height={400} width={400}  className=' rounded-xl'/>
-
+<div>
+  <Button>Problem</Button>
+  <Button> Solution</Button>
+</div>
 
       </div >
    
